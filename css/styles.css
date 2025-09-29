@@ -1,0 +1,387 @@
+/* Genel Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+
+/* Header */
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+  color: #2e2f42;
+}
+
+.logo-accent {
+  color: #4d5ae5;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #2e2f42;
+  font-weight: 500;
+}
+
+.contact-info {
+  display: flex;
+  gap: 40px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #434455;
+  font-size: 16px;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+              url('../images/arkaplan.jpg') center/cover no-repeat;
+  color: #ffffff;
+  text-align: center;
+  padding: 188px 0;
+  width: 1440px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 56px;
+  margin-bottom: 48px;
+  line-height: 1.07;
+}
+
+.hero button {
+  background-color: #4d5ae5;
+  color: white;
+  padding: 16px 32px;
+  border: none;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  transition: background-color 0.3s;
+}
+
+.hero button:hover {
+  background-color: #404bbf;
+}
+
+/* FEATURES */
+.features {
+  padding: 120px 0;
+}
+
+.features .container {
+  display: flex;
+  gap: 24px;
+}
+
+.feature-card {
+  flex: 1;
+  width: 264px;
+}
+
+.feature-icon {
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #8E8F99;
+  border-radius: 4px;
+  background: #F4F4FD;
+}
+
+.icon {
+  width: 64px;
+  height: 64px;
+}
+
+.feature-card h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 8px 0;
+}
+
+.feature-card p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+
+/* OUR TEAM */
+.our-team {
+  background-color: #f4f4fd;
+  padding: 120px 0;
+}
+
+.our-team h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 72px;
+  text-align: center;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.team-card {
+  background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 
+              0px 1px 1px 0px rgba(46, 47, 66, 0.16), 
+              0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  text-align: center;
+  width: 264px;
+  height: 428px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-bottom: 32px;
+}
+
+.team-card img {
+  width: 100%;
+  height: auto;
+}
+
+.team-card-content {
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 104px;
+}
+
+.team-card h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.team-card p {
+  margin: 0;
+  font-size: 16px;
+  color: #434455;
+}
+
+/* Social Links - Our Team */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  width: 232px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.social-link:hover {
+  background-color: #404bbf;
+}
+
+.social-icon {
+  width: 16px;
+  height: 16px;
+  fill: #f4f4fd;
+}
+
+/* PORTFOLIO */
+.portfolio-section {
+  padding: 120px 0;
+}
+
+.portfolio-section h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 72px;
+  text-align: center;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.portfolio-card {
+  background-color: #ffffff;
+  border: 1px solid #e7e9fc;
+  width: 360px;
+}
+
+.portfolio-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  width: 360px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card-content h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.card-content p {
+  margin: 0;
+  font-size: 16px;
+  color: #434455;
+}
+
+/* FOOTER */
+footer {
+  background-color: #2e2f42;
+  color: #ffffff;
+  padding: 100px 0;
+}
+
+.footer-content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer-info {
+  width: 264px;
+  height: 112px;
+  margin-right: 120px;
+}
+
+footer .logo {
+  color: #f4f4fd;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+footer p {
+  width: 264px;
+  color: #f4f4fd;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+/* Footer Social */
+.footer-social {
+  width: 208px;
+  height: 80px;
+}
+
+.footer-social h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  color: #ffffff;
+  width: 96px;
+  height: 24px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.footer-social .social-links {
+  width: 208px;
+  height: 40px;
+  gap: 16px;
+}
+
+.footer-social .social-icon {
+  width: 24px;
+  height: 24px;
+}
+/* Cashless Payment Image Overlay */
+.cashless-payment-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.cashless-payment-image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 40px;
+  left: 32px;
+  width: 296px;
+  height: 96px;
+  background-color: #4D5AE5; /* Mavi arkaplan */
+  padding: 16px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #ffffff; /* Beyaz yazı */
+  display: flex;
+  align-items: center;
+  opacity: 1;
+}
