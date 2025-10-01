@@ -421,3 +421,18 @@ footer p {
 .footer-social .social-link:hover {
   background-color: #31D0AA; /* Hover'da yeşil */
 }
+/* Navigation hover states */
+.nav-list a:hover,
+.nav-list a:focus {
+  color: #404BBF;
+}
+
+.nav-list a.active {
+  color: #404BBF;
+}
+
+/* Contact info hover */
+.contact-info a:hover,
+.contact-info a:focus {
+  color: #404BBF;
+}
